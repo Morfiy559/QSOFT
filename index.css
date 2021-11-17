@@ -110,6 +110,30 @@ main {
     box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
     cursor: pointer;
 }
+.main__partner img{
+    max-width: 100%;
+}
+#part1{
+    padding: 28px 77px;
+}
+#part2{
+     padding: 38px 18px;
+}
+#part3{
+     padding: 28px 93px;
+}
+#part4{
+     padding: 28px 55px;
+}
+#part5{
+     padding: 36px 18px;
+}
+#part6{
+     padding: 28px 74px;
+}
+#part7{
+     padding: 42px 18px;
+}
 
 @media (max-width: 1169px) {
     .main__partner {
@@ -120,11 +144,32 @@ main {
     .main__partners {
         gap: 20px;
     }
+    #part1{
+        padding: 28px 56px;
+    }
+    #part2{
+        padding: 43px 23px;
+    }
+    #part3{
+        padding: 23px 66px;
+    }
+    #part4{
+        padding: 25px 27px;
+    }
+    #part5{
+        padding: 41px 21px;
+    }
+    #part6{
+        padding: 23px 44px;
+    }
+    #part7{
+        padding: 45px 17px;
+    }
 }
 @media (max-width: 767px){
     .main__partner {
         min-width: 335px;
-        min-height: 140px;
+        height: 140px;
         flex-basis: 100%;
     }
     .header__profile-icon{
@@ -159,6 +204,27 @@ main {
     .header__search{
         border: 0;
         padding: 0 ;
+    }
+    #part1{
+        padding: 29px 95px;
+    }
+    #part2{
+        padding: 48px 50px 48px 51px;
+    }
+    #part3{
+        padding: 33px 117px 32px 118px;
+    }
+    #part4{
+        padding: 31px 70px 31px 71px;
+    }
+    #part5{
+        padding: 46px 51px 46px 52px;
+    }
+    #part6{
+        padding: 33px 97px;
+    }
+    #part7{
+        padding: 51px 44px;
     }
 }
 
